@@ -27,14 +27,15 @@ function Navbar() {
       setLoading(true)
       try {
         const res = await apiConnector("GET", categories.CATEGORIES_API)
-        setSubLinks(res.data.data)
-       console.log(res.data.data)
+        console.log("Categories API Response:", res)
+        setSubLinks(res?.data?.data || []) // <- fallback added here
       } catch (error) {
         console.log("Could not fetch Categories.", error)
       }
       setLoading(false)
     })()
   }, [])
+  
 
  
   // console.log("sub links", subLinks)
