@@ -8,14 +8,14 @@ const contactDetails = [
     icon: "HiChatBubbleLeftRight",
     heading: "Chat on us",
     description: "Our friendly team is here to help.",
-    details: "info@codeplay.com",
+    details: "info@LearnZinith.com",
   },
   {
     icon: "BiWorld",
     heading: "Visit us",
     description: "Come and say hello at our office HQ.",
     details:
-      "CodePlay Office, Bhopal-462022",
+      "LearnZinith Office, Chattishghar 490023",
   },
   {
     icon: "IoCall",
